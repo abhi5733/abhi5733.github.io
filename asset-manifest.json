@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.ca2d3f82.css",
-    "main.js": "/static/js/main.ba01b143.js",
+    "main.js": "/static/js/main.a0c8953d.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/sense.png": "/static/media/sense.30a4b434fc680639b0cc.png",
     "static/media/fraudy.png": "/static/media/fraudy.560f557a53cfcbd92d8f.png",
     "static/media/utube.png": "/static/media/utube.135e9a8f86907b9a3fba.png",
     "static/media/about.png": "/static/media/about.b224cb46532f7a5910f1.png",
     "static/media/fashion.jpg": "/static/media/fashion.ff295879e59bcaf3c32a.jpg",
-    "static/media/Abhijeet_Kale_Resume.pdf": "/static/media/Abhijeet_Kale_Resume.0a88e9e95690ebc2e5c0.pdf",
+    "static/media/fw20_0425-Abhijeet-kale-Resume.pdf": "/static/media/fw20_0425-Abhijeet-kale-Resume.4c53992bbf2bc212a646.pdf",
     "static/media/home.png": "/static/media/home.e2b6b50b4989a5ad1f38.png",
     "static/media/aboutMe.gif": "/static/media/aboutMe.7f1069ec96f8990ecc4a.gif",
     "static/media/abhidp.jpeg": "/static/media/abhidp.3a204882a35b04a65592.jpeg",
@@ -26,11 +26,11 @@
     "static/media/css.svg": "/static/media/css.43b6f4bdbc0f36b9f2dd15c6ebbcea15.svg",
     "static/media/html.svg": "/static/media/html.6a342d61e4fe710cf3e5c05b65b0ac87.svg",
     "main.ca2d3f82.css.map": "/static/css/main.ca2d3f82.css.map",
-    "main.ba01b143.js.map": "/static/js/main.ba01b143.js.map",
+    "main.a0c8953d.js.map": "/static/js/main.a0c8953d.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca2d3f82.css",
-    "static/js/main.ba01b143.js"
+    "static/js/main.a0c8953d.js"
   ]
 }
