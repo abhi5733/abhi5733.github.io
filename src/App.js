@@ -23,6 +23,8 @@ function App() {
       <About/>
       <Github/>
       <Project/>
+      <Skills/>
+      <Contact/>
     </>
   );
 }

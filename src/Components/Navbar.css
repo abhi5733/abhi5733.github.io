@@ -1,0 +1,22 @@
+
+.btn:hover{
+    background-color: olivedrab;
+    color:"white"
+     /* background-color: red */
+     /* background-color: black;
+     color: black */
+}
+
+.dropdown_content:hover{
+    text-decoration: underline;
+text-decoration-thickness: 5px;
+text-decoration-color:olivedrab;
+}
+
+
+.headText:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: gray.50 ;
+    cursor: pointer;
+}
