@@ -1,7 +1,9 @@
 import { Box, Heading, VStack  , Image ,Grid ,Text ,Flex ,IconButton} from '@chakra-ui/react'
 import React from 'react'
 import "./Project.css"
-import image from "../Image/fashion.jpg"
+// import image from "../Image/fashion.jpg"
+import chatApp1 from "../Image/chatApp1.png"
+import chatApp2 from "../Image/chatApp2.png"
 import fraudy from "../Image/fraudy.png"
 import oyo from "../Image/oyo.png"
 import sense from "../Image/sense.png"
@@ -16,11 +18,12 @@ const Project = () => {
 
   <Grid width="80%"  margin="auto" mt={10} gap={10} gridTemplateColumns={["repeat(1,1fr)","repeat(2,1fr)","repeat(2,1fr)","repeat(2,1fr)"]} >
  
-  <VStack _hover={{transform:"scale(1.1)" ,   transition:"transform 0.5s"}} backgroundColor="olivedrab" position="relative" borderRadius={10}  height={600}  p={3} py={5}  > <Image borderRadius={10} width="90%"  src={image} alt="fashionworld" /> <Heading fontSize={[ "sm","md","lg", "xl"]} color="gray.100" >Fashion World</Heading>
-  <Text fontSize={[ "md", "md","md", "md"]}  color= "black" fontWeight="semibold" >Fashion World is a Men and Women's fashion brand for the newest & trending Cloths, fashion accessories and online shop that offered high quality products at an affordable price. I have built the exact website clone as it is on the original website</Text> 
-   <Text  fontWeight="semibold" width="100%"  color="black" mt={5} > <Text color="gray.100" fontWeight="bold" as="span">Tech Stack :</Text>  React | Context-Api | Javascript | HTML | CSS</Text> 
+  <VStack _hover={{transform:"scale(1.1)" ,   transition:"transform 0.5s"}} backgroundColor="olivedrab" position="relative" borderRadius={10}  height={600}  p={3} py={5}  > <Image borderRadius={10} width="90%"  src={chatApp2} alt={chatApp1} /> <Heading fontSize={[ "sm","md","lg", "xl"]} color="gray.100" >Chat app</Heading>
+  <Text fontSize={[ "md", "md","md", "md"]}  color= "black" fontWeight="semibold" > Abhi chat-app enables users to chat with friends, see who's online, join/create group chats, and effortlessly share files and images.</Text> 
+   <Text  fontWeight="semibold" width="100%"  color="black" mt={5} >
+   <Text color="gray.100" fontWeight="bold" as="span">Tech Stack :</Text>  React | Socket.io </Text> 
 
-   <Flex  position="absolute" bottom={5}  width="60%"  justifyContent="space-between"   > <a href='https://github.com/abhi5733/mucho-tent-9336' target="_blank"> <Box color="gray.100" _hover={{color:"gray.400"}} >  <GrGithub  size="30px"  />  </Box>  </a> <a href="https://6370e02952032d37668359cf--vermillion-fox-707414.netlify.app/" target="_blank">  <Box color="gray.100"  _hover={{color:"gray.400"}} >  <GoLinkExternal size="30px"  /> </Box> </a>
+   <Flex  position="absolute" bottom={5}  width="60%"  justifyContent="space-between"   > <a href='https://github.com/abhi5733/socket' target="_blank"> <Box color="gray.100" _hover={{color:"gray.400"}} >  <GrGithub  size="30px"  />  </Box>  </a> <a href="https://socket-ergd.vercel.app/" target="_blank">  <Box color="gray.100"  _hover={{color:"gray.400"}} >  <GoLinkExternal size="30px"  /> </Box> </a>
     
      </Flex> </VStack>
 
